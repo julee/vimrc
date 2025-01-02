@@ -384,3 +384,5 @@ function! VisualSelection(direction, extra_filter) range
     let @/ = l:pattern
     let @" = l:saved_reg
 endfunction
+
+set fencs=utf-8,gb18030,big5,cp936,utf-16
