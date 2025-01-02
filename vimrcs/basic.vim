@@ -386,3 +386,10 @@ function! VisualSelection(direction, extra_filter) range
 endfunction
 
 set fencs=utf-8,gb18030,big5,cp936,utf-16
+
+" Normal mode - solid block
+let &t_EI = "\e[2 q"
+" Insert mode - blinking vertical bar
+let &t_SI = "\e[5 q"
+" Replace mode - blinking underscore
+let &t_SR = "\e[3 q"
