@@ -396,3 +396,9 @@ let &t_SR = "\e[3 q"
 
 set visualbell
 set noerrorbells
+
+" 目录浏览，然后打开文件，ctrl+o 可以调回文件所在目录。 neetrw 其他常用操作：目录浏览中 u(上一个浏览的目录），-（上一级目录）。
+let g:netrw_keepj = ""
+" 目录浏览，自动切换到当前文件目录或者当前打开的目录
+let g:netrw_keepdir = 0
+
